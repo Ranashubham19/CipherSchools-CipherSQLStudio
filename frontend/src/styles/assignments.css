@@ -1,0 +1,65 @@
+.assignments-page {
+  padding: 24px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.assignment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.assignment-card {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  background: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.assignment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assignment-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Difficulty badges */
+.difficulty-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.easy {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.hard {
+  background: #f8d7da;
+  color: #842029;
+}

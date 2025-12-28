@@ -1,0 +1,87 @@
+.pro-editor-page {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.pro-editor-card {
+  width: 100%;
+  max-width: 1000px;
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 36px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.pro-title {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.pro-subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 26px;
+}
+
+/* Label */
+.pro-editor-label {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* BLACK SQL BOX */
+.pro-sql-box {
+  width: 100%;
+  height: 320px;
+  background: #020617;
+  color: #e5e7eb;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
+
+/* Buttons */
+.pro-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.pro-execute-btn {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.pro-hint-btn {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* Error */
+.pro-error {
+  margin-top: 20px;
+  padding: 14px;
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 12px;
+  font-weight: 600;
+}
