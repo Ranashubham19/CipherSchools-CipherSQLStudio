@@ -32,8 +32,4 @@ This design ensures **security, scalability, and correctness**.
 
 ---
 
-## 📊 Data Flow Diagram
 
-The following diagram illustrates how data flows through the CipherSQLStudio system:
-
-![Data Flow Diagram](./data-flow.png)
